@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 270">
+  <title>Café e cupcake Confei &amp; Coffee</title>
+  <circle
+    cx="149"
+    cy="142"
+    r="100"
+    fill="#f3dce5"
+    stroke="#c799ab"
+    stroke-width="3"
+  />
+  <g stroke="#683a29" stroke-width="4" stroke-linejoin="round">
+    <ellipse cx="132" cy="211" rx="80" ry="16" fill="#fff0e5" />
+    <path d="M79 130C23 106 32 181 79 176" fill="#fff0e5" />
+    <path d="M76 142C48 124 49 168 78 163" fill="#f2dce4" />
+    <path d="M72 121h119l-12 61q-7 29-47 29t-48-29z" fill="#fff8f0" />
+    <ellipse cx="131" cy="122" rx="60" ry="18" fill="#e8b593" />
+    <ellipse cx="131" cy="122" rx="48" ry="12" fill="#61301e" />
+    <path
+      d="M121 120q-25-12 2-17"
+      fill="none"
+      stroke="#efc29d"
+      stroke-width="2"
+    />
+    <path
+      d="M134 101c-50-31 31-39 1-61-16-12-28 5-17 13 10 9 6 15-2 20M146 92c-7-24 33-30 15-45"
+      fill="none"
+      stroke="#fff1e5"
+      stroke-width="10"
+      stroke-linecap="round"
+    />
+    <path
+      d="M134 101c-50-31 31-39 1-61-16-12-28 5-17 13 10 9 6 15-2 20M146 92c-7-24 33-30 15-45"
+      fill="none"
+      stroke-width="2"
+      stroke-linecap="round"
+    />
+    <path d="M183 178h65l-9 51h-47z" fill="#cb8a53" />
+    <path
+      d="m197 185 4 36m14-36v38m19-38-5 36"
+      stroke="#f4c187"
+      stroke-width="3"
+    />
+    <path
+      d="M179 177c-6-12 3-24 17-27-3-12 10-19 20-22 0 9 4 12 13 17 15 0 27 18 20 30-6 12-16 5-23 5-10 8-18 5-26 0-9 6-17 4-21-3z"
+      fill="#fff5ea"
+    />
+    <path
+      d="M192 161q22 16 44 1M196 150q12 6 23 1"
+      fill="none"
+      stroke="#d4a3b4"
+      stroke-width="3"
+    />
+    <circle cx="218" cy="130" r="9" fill="#ad5c78" />
+    <path d="M219 123q2-16 17-20" fill="none" stroke-linecap="round" />
+    <ellipse
+      cx="100"
+      cy="237"
+      rx="13"
+      ry="8"
+      transform="rotate(25 100 237)"
+      fill="#a3613e"
+    />
+    <path d="m90 232 20 10" stroke-width="2" />
+  </g>
+  <g fill="none" stroke="#fff6ee" stroke-width="3">
+    <path
+      d="M67 99c-28-20-13-30-4-17 2-19 19-13 4 17zM214 86c-24-18-10-25-4-14 3-16 17-11 4 14z"
+    />
+  </g>
+</svg>

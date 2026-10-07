@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#f7b2c4" />
+    <title>Confei &amp; Coffee • Login</title>
+    <link rel="icon" href="assets/marca.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/personalizar.css" />
+  </head>
+  <body class="login-body">
+    <main class="login-window">
+      <section class="brand-panel">
+        <img
+          src="assets/marca.svg"
+          class="brand-art"
+          alt="Ilustração de uma xícara de café com cupcake"
+        />
+        <h1 class="brand-name">Confei <span>&amp; Coffee</span></h1>
+        <p class="brand-category">CAFETERIA E CONFEITARIA</p>
+        <p class="brand-tagline">Sabor que acolhe, experiência que fica!</p>
+      </section>
+      <section class="access-panel">
+        <div class="access-content">
+          <header class="access-heading">
+            <span class="eyebrow">SEU CANTINHO MAIS DOCE</span>
+            <h2>Bem-vindo(a)!</h2>
+            <p>Faça login para acessar o sistema</p>
+          </header>
+          <form id="login-form">
+            <label class="field" for="email"
+              >Login<input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="username"
+                placeholder="Seu e-mail"
+                required
+                maxlength="120" /></label
+            ><label class="field" for="senha"
+              >Senha<input
+                type="password"
+                id="senha"
+                name="senha"
+                autocomplete="current-password"
+                placeholder="Sua senha"
+                required /></label
+            ><label class="show-password"
+              ><input type="checkbox" id="mostrar-senha" />Mostrar senha</label
+            >
+            <p id="login-message" role="alert" aria-live="polite"></p>
+            <div class="login-actions">
+              <button type="button" id="limpar-login" class="btn btn-outline">
+                Limpar</button
+              ><button class="btn btn-primary" type="submit">
+                Entrar <span aria-hidden="true">→</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+      <footer class="login-footer">
+        <span>© 2026 · Confei &amp; Coffee</span
+        ><span>Gestão da cafeteria e confeitaria</span>
+      </footer>
+    </main>
+    <script src="js/api.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>

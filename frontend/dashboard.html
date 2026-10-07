@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Confei & Coffee • Gestão</title>
+    <link rel="icon" href="assets/marca.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/personalizar.css" />
+  </head>
+  <body>
+    <div class="cafe-shell">
+      <aside class="cafe-sidebar">
+        <div class="logo cafe-brand">
+          <img
+            class="sidebar-brand-art"
+            src="assets/marca.svg"
+            alt="Café e cupcake"
+          />
+          <div>
+            <strong>Confei <em>&amp; Coffee</em></strong
+            ><small>Confeitaria e cafeteria</small>
+          </div>
+        </div>
+        <nav id="navigation" aria-label="Menu principal"></nav>
+        <div class="cafe-profile">
+          <p id="user"></p>
+          <button class="btn" id="theme">Alternar tema</button
+          ><button class="btn" id="logout">Sair</button>
+        </div>
+      </aside>
+      <main class="cafe-main">
+        <header class="cafe-header">
+          <div>
+            <p class="eyebrow">CAFETERIA E CONFEITARIA</p>
+            <h1 id="title">Visão geral</h1>
+          </div>
+          <button class="btn btn-primary" id="new">+ Novo cadastro</button>
+        </header>
+        <p id="notice" role="status" aria-live="polite"></p>
+        <section id="overview"></section>
+        <section id="listing">
+          <div class="cafe-filters">
+            <input
+              id="search"
+              aria-label="Pesquisar"
+              placeholder="Pesquisar nesta página"
+            /><select id="status-filter" aria-label="Filtrar situação">
+              <option value="">Todas as situações</option>
+              <option>Pendente</option>
+              <option>Em preparo</option>
+              <option>Pronto</option>
+              <option>Entregue</option>
+              <option>Cancelado</option></select
+            ><label id="date-label"
+              >Data de retirada<input type="date" id="date-filter"
+            /></label>
+          </div>
+          <div id="table" class="cafe-table"></div>
+          <div class="cafe-pagination">
+            <button class="btn" id="prev">Anterior</button
+            ><span id="page-info"></span
+            ><button class="btn" id="next">Próxima</button>
+          </div>
+        </section>
+      </main>
+    </div>
+    <dialog id="editor" aria-labelledby="editor-title">
+      <form id="edit-form">
+        <div class="cafe-header">
+          <h2 id="editor-title"></h2>
+          <button type="button" class="btn" id="close">Fechar</button>
+        </div>
+        <div id="fields" class="cafe-fields"></div>
+        <section id="order-items" hidden>
+          <h3>Produtos do pedido</h3>
+          <p>O preço dos itens existentes é preservado ao editar.</p>
+          <div id="items"></div>
+          <button class="btn" type="button" id="add-item">
+            + Adicionar produto
+          </button>
+          <h3 id="order-total"></h3>
+        </section>
+        <p id="form-error" role="alert"></p>
+        <button class="btn btn-primary" id="save" type="submit">Salvar</button>
+      </form>
+    </dialog>
+    <script src="js/api.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
